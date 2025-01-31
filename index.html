@@ -352,11 +352,12 @@
 
         <!-- Everyday Low Price Section -->
         <section>
-            <div class="hero mt-10 ">
+            <div class="hero mb-20 ">
                 <div class="hero-content flex-col lg:flex-row">
                     <div>
                         <h1 class="font-bold text-xl ">Everyday low Price</h1>
-                        <div class=" bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]  rounded-lg px-10 pt-10 mt-6 lg:h-[480px] flex flex-col lg:flex-row">
+                        <div
+                            class=" bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD]  rounded-lg px-10 pt-10 mt-6 lg:h-[480px] flex flex-col lg:flex-row">
                             <div class="space-y-4">
                                 <p class="hidden lg:flex">Under Price</p>
                                 <h2 class="font-bold text-xl">Pet Grooming Mitt</h2>
@@ -369,8 +370,7 @@
                         </div>
                     </div>
 
-                    <div
-                        class=" bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  rounded-lg px-10 pt-10 mt-6 h-[480px]">
+                    <div class=" bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]  rounded-lg px-10 pt-10 mt-6 h-[480px]">
                         <div class="space-y-4">
                             <h2 class="font-bold text-xl">T-Shirt For Dogs</h2>
                             <h2 class="font-bold text-xl text-[#FFDC26]">$7.99</h2>
@@ -386,9 +386,54 @@
         </section>
     </main>
 
-    <footer>
+    <main class="container m-auto rounded h-80 px-10">
+        <div class="hero absolute bg-[#FFF9F4] z-10 w-[400px] lg:w-[1280px] rounded-lg ">
+            <div class="hero-content flex-col lg:flex-row">
+                <img src="c1-assets/cute-pet-mid.png" />
+                <div>
+                    <h1 class="text-5xl font-bold">Get Awesome News!</h1>
+                    <p class="py-6">
+                        Exclusive training tips, ticks, product deals and more.
+                    </p>
+                    <input type="text" placeholder="Enter Email..." class="input w-full max-w-xs bg-gray-100 " /> <br><br>
+                    <button class="btn bg-[#FFDC26]">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </main>
 
-    </footer>
+    <section class="bg-[#FFDC26]  lg:-mt-24 mt-36">
+        <footer class="footer container m-auto  px-10 pb-10 pt-96 lg:pt-80 ">
+            <aside>
+                <a class="btn btn-ghost text-xl lg:flex"><img src="c1-assets/logo-footer.png" alt="">Browse Pets</a>
+                <p class="text-gray-600">Discover a world of treats, toys, and <br> essentials handpicked for your furry
+                    <br> friends
+                </p>
+            </aside>
+            <nav class="text-gray-600">
+                <a class="link link-hover">Find a Pet</a>
+                <a class="link link-hover">Breeds</a>
+                <a class="link link-hover">Contact us</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Follow Us</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </nav>
+        </footer>
+    </section>
 </body>
 
 </html>
