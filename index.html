@@ -24,58 +24,212 @@
     </style>
 </head>
 
-<body>
-    <header class=" bg-[#FFF9F4]">
-        <div class="navbar md:container m-auto ">
-            <div class="flex-1 justify-between ">
-                <a class="btn btn-ghost text-xl lg:hidden"><img src="c1-assets/logo-header.png" alt=""></a>
-                <a class="btn btn-ghost hidden text-xl lg:flex"><img src="c1-assets/logo-header.png" alt="">Browse<span
-                        class="text-yellow-400">4</span>Pets</a>
+<body class="adlam-font">
+    <header>
+        <nav class=" bg-[#FFF9F4]">
+            <div class="navbar md:container m-auto ">
+                <div class="flex-1 justify-between ">
+                    <a class="btn btn-ghost text-xl lg:hidden"><img src="c1-assets/logo-header.png" alt=""></a>
+                    <a class="btn btn-ghost hidden text-xl lg:flex"><img src="c1-assets/logo-header.png"
+                            alt="">Browse<span class="text-yellow-400">4</span>Pets</a>
 
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-40 w-52 p-2 shadow space-y-4">
+                            <li><a>Find a Pet</a></li>
+                            <li><a>Breeds</a></li>
+                            <li><a>Contact us</a></li>
+                            <li><a href="">
+                                    <i class="fa-regular fa-bell"></i>
+                                </a></li>
+                            <li><a href="">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a></li>
+
+                            <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
+                            <a class="btn bg-[#FFDC26]">Register</a>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-40 w-52 p-2 shadow space-y-4">
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1">
                         <li><a>Find a Pet</a></li>
                         <li><a>Breeds</a></li>
                         <li><a>Contact us</a></li>
-                        <li><a href="">
-                                <i class="fa-regular fa-bell"></i>
-                            </a></li>
-                        <li><a href="">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </a></li>
-
-                        <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
-                        <a class="btn bg-[#FFDC26]">Register</a>
                     </ul>
                 </div>
+                <div class="navbar-end hidden lg:flex space-x-5">
+                    <i class="fa-regular fa-bell"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
+                    <a class="btn bg-[#FFDC26]">Register</a>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex ">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Find a Pet</a></li>
-                    <li><a>Breeds</a></li>
-                    <li><a>Contact us</a></li>
-                </ul>
+        </nav>
+
+        <nav class="md:container m-auto mt-10 h-[700px] md:h-[900px] ">
+            <div class="space-y-5 absolute  lg:-mt-15 z-10">
+                <h1 class="text-6xl">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+                <p class="text-2xl text-gray-500">Discover a world of treats, toys, and essentials handpicked for <br>
+                    your furry friends. Shop now and make tails wag with joy!</p>
+                <a class="btn bg-[#FFDC26]">Find a Pet</a>
             </div>
-            <div class="navbar-end hidden lg:flex space-x-5">
-                <i class="fa-regular fa-bell"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
-                <a class="btn bg-[#FFDC26]">Register</a>
+            <div class="absolute mt-96 lg:mt-24">
+                <img src="c1-assets/cat-big.png" alt="">
             </div>
-        </div>
+        </nav>
 
     </header>
 
-    <main>
-        
+    <main class="container m-auto">
+        <section>
+            <h1 class="text-3xl">Browse By Categories</h1>
+            <div class="mt-7 grid space-x-4 space-y-4 grid-cols-2 lg:grid-cols-6">
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/dog-cartoon.png" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Dog</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/fish-cartoon.png" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Fish</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/cat-cartoon.png" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Cat</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/bird-cartoon.png" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Birds</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/m" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Small Pet</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="c1-assets/rabbit-cartoon.png" alt="Shoes" class="bg-white p-5 rounded-full" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title">Rabbit</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extra section -->
+        <section class="mt-10">
+            <h1 class="text-3xl text-green-900 font-bold mb-10">Free Delivery Pets ( upto Feb 4 )</h1>
+            <div class=" space-y-4 space-x-4 grid grid-cols-2 md:grid-cols-4 mb-10">
+                <div class="bg-green-50 border border-green-700 rounded-3xl">
+                    <div class="card">
+                        <figure>
+                            <img src="c1-assets/dog.webp" alt="Dogs" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Dogs!
+                                <div class="badge badge-secondary text-green-900 bg-yellow-400   border-none">Buy Now!
+                                </div>
+                            </h2>
+                            <p>Buy 2 cutu dogs,then delivery charge will be free!</p>
+                            <div class="card-action">
+                                <div class="badge badge-outline font-bold text-green-800 bg-yellow-400">Add to Carts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" bg-green-50 border border-green-700 rounded-3xl">
+                    <div class="card">
+                        <figure>
+                            <img src="c1-assets/cat.jpg" alt="Cats" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Dogs!
+                                <div class="badge badge-secondary text-green-900 bg-yellow-400   border-none">Buy Now!
+                                </div>
+                            </h2>
+                            <p>Buy 2 cutu cats,then delivery charge will be free!</p>
+                            <div class="card-action">
+                                <div class="badge badge-outline font-bold text-green-800 bg-yellow-400">Add to Carts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" bg-green-50 border border-green-700 rounded-3xl">
+                    <div class="card">
+                        <figure>
+                            <img src="c1-assets/parrot.jpg" alt="Dogs" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Parrot!
+                                <div class="badge badge-secondary text-green-900 bg-yellow-400   border-none">Buy Now!
+                                </div>
+                            </h2>
+                            <p>Buy 2 cutu tota pakhi,then delivery charge will be free!</p>
+                            <div class="card-action">
+                                <div class="badge badge-outline font-bold text-green-800 bg-yellow-400">Add to Carts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" bg-green-50 border border-green-700 rounded-3xl">
+                    <div class="card">
+                        <figure>
+                            <img src="c1-assets/rabit.avif" alt="Dogs" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                Rabbit!
+                                <div class="badge badge-secondary text-green-900 bg-yellow-400   border-none">Buy Now!
+                                </div>
+                            </h2>
+                            <p>Buy 2 cutu rabbits,then delivery charge will be free!</p>
+                            <div class="card-action">
+                                <div class="badge badge-outline font-bold text-green-800 bg-yellow-400">Add to Carts</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
     </main>
 
     <footer>
