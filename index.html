@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <!-- Daisy UI & Tailwind CSS cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ADLaM font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <!-- Font-Awesome cdn -->
+    <script src="https://kit.fontawesome.com/282e893800.js" crossorigin="anonymous"></script>
+
+    <style>
+        .adlam-font {
+            font-family: "ADLaM Display", serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class=" bg-[#FFF9F4]">
+        <div class="navbar md:container m-auto ">
+            <div class="flex-1 justify-between ">
+                <a class="btn btn-ghost text-xl lg:hidden"><img src="c1-assets/logo-header.png" alt=""></a>
+                <a class="btn btn-ghost hidden text-xl lg:flex"><img src="c1-assets/logo-header.png" alt="">Browse<span
+                        class="text-yellow-400">4</span>Pets</a>
+
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-40 w-52 p-2 shadow space-y-4">
+                        <li><a>Find a Pet</a></li>
+                        <li><a>Breeds</a></li>
+                        <li><a>Contact us</a></li>
+                        <li><a href="">
+                                <i class="fa-regular fa-bell"></i>
+                            </a></li>
+                        <li><a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a></li>
+
+                        <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
+                        <a class="btn bg-[#FFDC26]">Register</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Find a Pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex space-x-5">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a class="btn bg-[#FFF9F4] border-[#FFDC26]">Login</a>
+                <a class="btn bg-[#FFDC26]">Register</a>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
